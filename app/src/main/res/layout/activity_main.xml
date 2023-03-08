@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:text="@string/welcome_to_sportkom"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:layout_marginHorizontal="60dp"
+        android:background="@drawable/login_button"
+        android:backgroundTint="@color/black"
+        android:onClick="onClickLogin"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignIn"
+        android:onClick="onClickSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:background="@drawable/signin_button"
+        android:text="@string/create_account"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="@+id/btnLogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

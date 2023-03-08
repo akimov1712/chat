@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SportkomChat</string>
+    <string name="welcome_to_sportkom">Welcome to Sportkom</string>
+    <string name="log_in">Log in</string>
+    <string name="create_account">Create account</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="don_t_have_account">Don’t have account?</string>
+    <string name="please_sign_the_form">Please sign the form</string>
+    <string name="login_to_you_account">Login to you account</string>
+    <string name="fields_should_not_be_empty">Fields should not be empty</string>
+    <string name="email">Email</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_your_user_name">Enter your user name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="message">Message</string>
+</resources>
