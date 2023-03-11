@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486317666954",
+    "project_id": "fir-homework-53d1b",
+    "storage_bucket": "fir-homework-53d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486317666954:android:885725a426e9625f943373",
+        "android_client_info": {
+          "package_name": "com.example.sportkomchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486317666954-g831smlb8ntnt4f6dajn7d6u9rlc3m7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sportkomchat",
+            "certificate_hash": "684af31163add911ee61b1a6e48028ff65c3502c"
+          }
+        },
+        {
+          "client_id": "486317666954-tmqglp0s1f5farri25jt2fpohp3054k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB668xsqkDK_SwH66pUUXOnXR2ML5cBPDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486317666954-tmqglp0s1f5farri25jt2fpohp3054k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -62,7 +62,7 @@ public class LogInActivity extends AppCompatActivity {
                         Intent intent = new Intent(LogInActivity.this, MessageActivity.class);
                         startActivity(intent);
                     } else {
-                        Toast.makeText(LogInActivity.this, "Ошибка: " + task.getException(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LogInActivity.this, "Ошибка\nПроверьте правильность ввода", Toast.LENGTH_SHORT).show();
                     }
                 }
             });

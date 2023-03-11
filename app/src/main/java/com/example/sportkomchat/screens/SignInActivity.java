@@ -65,7 +65,7 @@ public class SignInActivity extends AppCompatActivity {
                         Intent intent = new Intent(SignInActivity.this, MessageActivity.class);
                         startActivity(intent);
                     } else {
-                        Toast.makeText(SignInActivity.this, "error " + task.getException(),Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignInActivity.this, "Ошибка\nПроверьте правильность ввода",Toast.LENGTH_SHORT).show();
                     }
                 }
             });
